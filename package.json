@@ -12,6 +12,9 @@
     "lint": "eslint \"./src/*.{js,jsx}\"",
     "test": "echo 1"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "datocms",
     "datocms-plugin",
